@@ -1,0 +1,71 @@
+body{background-color: rgb(20, 73, 77);}
+.wrapper{margin: 0px auto;}
+.wel1{color: rgb(188, 129, 40);  background-color: rgb(4, 45, 25); text-align: center;width: 100%;font-size: 17px;}
+.wel2{color: #ffb74b; text-align: center;margin-top: -10px;font-size:10px}
+.myimg{border-radius: 80%;outline: 5px solid rgb(36, 146, 91); 
+margin-top: 0px;width:35%;margin-left:80px;}
+h1{color:  rgb(252, 162, 6);;text-align: center;font-size: 14px;;}
+.p1{color:  rgb(233, 185, 101);text-align: center;margin-top: -9px;font-size: 14px;;}
+footer{background-color: rgb(4, 35, 42);width: 100%;height: 100px;margin: 0px auto;margin-top: 50px;}
+.msg{text-align: center;margin-top: 35px;color: rgb(255, 145, 0);background-color: rgb(4, 45, 25) ;}
+.fb{width: 60%;margin-top: 15px;font-size: 15px; margin-left: 50px;color: white;
+background-color: rgb(0, 128, 255);}
+.wa{width: 60%;margin-top: 25px;font-size: 15px; margin-left: 50px;color: white;background-color: forestgreen;}
+.ig{width: 60%;margin-top: 25px;font-size: 15px; margin-left: 50px;color: blue;background-color: rgb(206, 0, 69);}
+.tg{width: 60%;margin-top: 25px;font-size: 15px; margin-left: 50px;color:  rgb(0, 128, 255);background-color: floralwhite;}
+.email{width: 10%;border-radius: 20px;margin-top:10px;}
+.emaillink{font-size: 12px;color:rgb(76, 185, 76); margin-top: -15px;margin-left: 30px;}
+.ytub{width: 10%; border-radius: 20px;margin-top: 15px;}
+.ychnel{color: red; font-size: 13px;margin-top: -17px;margin-left: 30px;}
+
+@media only screen and (min-width:350px) {.wrapper{
+    width:350px; margin: 0px auto;}
+.wel1{font-size: 25px;}    
+.wel2{;margin-top: -15px;font-size: 19px;}
+.myimg{margin-left: 100px; width: 40%; }
+h1{font-size: 22px;}
+.p1{font-size: 23px;}
+.msg{font-size: 23px;}
+.fb{font-size: 19px;margin-top: 25px;margin-left: 75px;}
+.wa{font-size: 19px;margin-top:25px;margin-left: 75px;}
+.ig{font-size: 19px;margin-top: 25px;margin-left: 75px;}
+.tg{font-size: 19px;margin-top: 25px;margin-left: 75px;}
+.emaillink{font-size: 12px; margin-top: -19px;margin-left: 40px;}
+.ytub{width: 10%; border-radius: 20px;}
+.ychnel{color: red; font-size: 13px;margin-top: -17px;margin-left: 45px;}
+}
+
+@media only screen and (min-width:730px) {.wrapper{
+    width:730px; margin: 0px auto;}
+.wel1{font-size: 35px;}    
+.wel2{font-size:30px}
+.myimg{width:25%; margin-left: 280px;}
+h1{font-size: 25px;}
+.p1{font-size: 28px;}
+.p1{font-size: 23px;}
+.msg{font-size: 28px;}
+.fb{font-size: 19px;margin-top: 25px;margin-left: 145px;}
+.wa{font-size: 25px;margin-top:25px;margin-left: 145px;}
+.ig{font-size: 25px;margin-top: 25px;margin-left: 145px;}
+.tg{font-size: 25px;margin-top: 25px;margin-left: 145px;}
+.emaillink{font-size: 22px; margin-top: -29px;margin-left: 75px;}
+.email{width: 8%;border-radius: 20px;margin-top:10px;}
+.ytub{width: 8%; border-radius: 20px;margin-top: 15px;}
+footer{width: 100%;height: 130px;}
+.ychnel{color: red; font-size: 22px;margin-top: -29px;margin-left: 70px;}
+}
+
+
+@media only screen and (min-width:900px) {.wrapper{
+    width:900px; margin: 0px auto;}
+.wel1{font-size: 45px;}    
+.wel2{font-size:35px}
+.myimg{width:25%; margin-left: 380px;}
+h1{font-size: 29px;}
+.p1{font-size: 29px;}
+.email{width: 8%;border-radius: 20px;margin-top:10px;}
+.emaillink{font-size: 25px; margin-top: -29px;margin-left: 95px;}
+.ytub{width: 8%; border-radius: 20px;margin-top: 15px;}
+footer{width: 100%;height: 170px;}
+.ychnel{color: red; font-size: 25px;margin-top: -29px;margin-left: 90px;}
+}
